@@ -16,10 +16,3 @@ def signup(request):
     else:
         form = SignUpForm()
     return render(request, 'signup.html', {'form': form})
-
-
-def home(request):
-	context = {
-	
-	}
-	return render(request, 'home.html', context)
