@@ -1,0 +1,21 @@
+<h3>Log in</h3>
+  <form method="post">
+    {% csrf_token %}
+    <input type="hidden" name="next" value="{{ next }}">
+    {% include 'includes/form.html' %}
+    <button type="submit">Log in</button>
+  </form>
+</div>
+<div>
+  New User? <a href="{% url 'signup' %}">Sign up</a>
+  <br>
+  <p><strong>-- OR --</strong></p>
+  <a href="{% url 'social:begin' 'google-oauth2' %}">Login with Google</a><br>
+  <a href="{% url 'social:begin' 'facebook' %}">Login with Facebook</a><br>
+</div>
+</div>
+<div>
+<small>
+  <a href="{% url 'password_reset' %}">Forgot your password?</a>
+</small>
+</div>
