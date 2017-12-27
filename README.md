@@ -3,6 +3,7 @@
 ## Follow the steps below
 
 1. create new project using command below
+
 django-admin startproject --template=https://github.com/russell310/myproject/archive/master.zip project_name
 
 2. pip install -r requirements.txt
