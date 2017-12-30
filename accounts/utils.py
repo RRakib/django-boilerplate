@@ -8,7 +8,7 @@ class MailSend:
         self.from_email = settings.EMAIL_HOST_USER
 
     def sending_mail(self, *args, **kwargs):
-        subject = 'Asian Hands Booking Form'
+        subject = 'Your Subject'
         to = kwargs['to']
         from_email = self.from_email
         message = render_to_string('email/email.html', kwargs['ctx'])
