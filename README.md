@@ -12,3 +12,6 @@
 5. rename `.env.example` to `.env` with your own setup details 
 6. `python manage.py migrate`
 7. `python manage.py runserver`
+
+* For strong SECRET_KEY: https://www.miniwebtool.com/django-secret-key-generator/
+* For Postgresql replace in .env DATABASE_URL = postgres://username:password@localhost:5432/database_name 
