@@ -1,4 +1,4 @@
-# Django 2.0 project boilerplate
+# Django 2 project boilerplate
 
 ## Follow the steps below
 
