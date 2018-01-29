@@ -2,7 +2,7 @@
 
 ## Follow the steps below
 
-1. Create your virtual environment
+1. Create your virtual environment and activate
 2. Install latest version of django using `pip install django`
 3. create new project using command below
 
