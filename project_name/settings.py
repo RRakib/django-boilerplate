@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # 3rd party apps
+    'debug_toolbar',
+
+    # myapp
     'accounts',
 ]
 
@@ -51,6 +55,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    # 3rd party middleware
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = '{{ project_name }}.urls'
@@ -132,6 +139,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
+
+INTERNAL_IPS = '127.0.0.1'
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
