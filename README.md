@@ -25,4 +25,4 @@
 * For Postgresql replace in .env DATABASE_URL = postgres://username:password@localhost:5432/database_name 
 
 
-#This Boilerplate Was Originally Created By `https://github.com/russell310`
+# This Boilerplate Was Originally Created By `https://github.com/russell310`
