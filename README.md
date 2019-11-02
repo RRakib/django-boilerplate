@@ -7,7 +7,9 @@
 `virtualenv venv `
 
 `source ./venv/Scripts/activate`
+
 2. Install latest version of django using `pip install django`
+
 3. create new project using command below
 
 `django-admin startproject --template=https://github.com/russell310/myproject/archive/master.zip project_name`
