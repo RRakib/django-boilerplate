@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 
 class DemoPurpose(models.Model):
     name = models.CharField(max_length=50)
@@ -9,4 +8,4 @@ class DemoPurpose(models.Model):
         verbose_name = "Demo"
 
     def __str__(self):
-    	return self.name
+        return self.name
